@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d404c5b8-602b-423c-a652-facda5210eaf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LongDescriptionGenerator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ModelNumberGenerator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShortDescriptionGenerator.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Run.py" beforeDir="false" afterPath="$PROJECT_DIR$/Run.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Spreadsheet.py" beforeDir="false" afterPath="$PROJECT_DIR$/Spreadsheet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/delete.txt" beforeDir="false" afterPath="$PROJECT_DIR$/outputs/delete.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/outputs/output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,10 +19,10 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/JCI$Unittests_for_test_testCode_test.coverage" NAME="Unittests for test.testCode.test Coverage Results" MODIFIED="1544007176303" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/JCI$Unittests_in_test_py.coverage" NAME="Unittests in test.py Coverage Results" MODIFIED="1544008492041" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/JCI$Unittests_for_test_testCode_test.coverage" NAME="Unittests for test.testCode.test Coverage Results" MODIFIED="1544025272796" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/JCI$Unittests_in_test_py.coverage" NAME="Unittests in test.py Coverage Results" MODIFIED="1544025296106" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/JCI$Spreadsheet.coverage" NAME="Spreadsheet Coverage Results" MODIFIED="1543493842680" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/JCI$Run.coverage" NAME="Run Coverage Results" MODIFIED="1544009917197" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/JCI$Run.coverage" NAME="Run Coverage Results" MODIFIED="1544025968914" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -39,7 +44,7 @@
         <entry file="file://$PROJECT_DIR$/Spreadsheet.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
-              <caret line="13" column="49" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
+              <caret line="13" column="55" selection-start-line="13" selection-start-column="55" selection-end-line="13" selection-end-column="55" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
               </folding>
@@ -47,17 +52,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Run.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="187">
+              <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
               <folding>
-                <element signature="e#0#16#0" expanded="true" />
-                <element signature="e#1266#2626#0" />
-                <element signature="e#2665#2880#0" />
-                <element signature="e#2724#3567#0" />
-                <element signature="e#4120#4178#0" />
+                <element signature="e#0#34#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -66,8 +67,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+            <state relative-caret-position="170">
+              <caret line="10" lean-forward="true" selection-start-line="8" selection-end-line="12" selection-end-column="10" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -76,19 +77,44 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/delete.txt">
+        <entry file="file://$PROJECT_DIR$/ModelNumberGenerator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-49672">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            <state relative-caret-position="622">
+              <caret line="118" column="60" selection-start-line="118" selection-start-column="60" selection-end-line="118" selection-end-column="96" />
+              <folding>
+                <element signature="e#0#16#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/output.txt">
+        <entry file="file://$PROJECT_DIR$/outputs/ModelNumbers.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-50114">
-              <caret line="124" column="9" selection-start-line="124" selection-start-column="7" selection-end-line="124" selection-end-column="9" />
+            <state relative-caret-position="-52191" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ShortDescriptionGenerator.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="520">
+              <caret line="118" column="108" selection-start-line="118" selection-start-column="108" selection-end-line="118" selection-end-column="108" />
+              <folding>
+                <element signature="e#0#16#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LongDescriptionGenerator.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="742">
+              <caret line="112" lean-forward="true" selection-start-line="112" selection-end-line="112" />
+              <folding>
+                <element signature="e#0#16#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -125,10 +151,13 @@
         <option value="$PROJECT_DIR$/client_secret.json" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/output" />
-        <option value="$PROJECT_DIR$/Spreadsheet.py" />
         <option value="$PROJECT_DIR$/output.txt" />
+        <option value="$PROJECT_DIR$/Spreadsheet.py" />
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/Run.py" />
+        <option value="$PROJECT_DIR$/ModelNumberGenerator.py" />
+        <option value="$PROJECT_DIR$/ShortDescriptionGenerator.py" />
+        <option value="$PROJECT_DIR$/LongDescriptionGenerator.py" />
       </list>
     </option>
   </component>
@@ -151,6 +180,11 @@
               <item name="JCI" type="b2602c69:ProjectViewProjectNode" />
               <item name="JCI" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="JCI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JCI" type="462c0819:PsiDirectoryNode" />
+              <item name="outputs" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -167,6 +201,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Workspace\Python\JCI\outputs" />
       <recent name="C:\Workspace\Python\JCI" />
     </key>
   </component>
@@ -279,6 +314,7 @@
       <workItem from="1543492557136" duration="12704000" />
       <workItem from="1543959779209" duration="8263000" />
       <workItem from="1544005892117" duration="4124000" />
+      <workItem from="1544013201260" duration="1789000" />
     </task>
     <servers />
   </component>
@@ -295,14 +331,23 @@
     <history-entry file="Unittests_in_test_py - 2018.12.05 at 12h 15m 01s.xml">
       <configuration name="Unittests in test.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_for_test_testCode_test - 2018.12.05 at 16h 54m 26s.xml">
+      <configuration name="Unittests for test.testCode.test" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_testCode_test - 2018.12.05 at 16h 54m 38s.xml">
+      <configuration name="Unittests for test.testCode.test" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_py - 2018.12.05 at 16h 55m 01s.xml">
+      <configuration name="Unittests in test.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25091000" />
+    <option name="totallyTimeSpent" value="26880000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25397456" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25596184" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -344,50 +389,81 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Spreadsheet.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
-          <caret line="13" column="49" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
+          <caret line="13" column="55" selection-start-line="13" selection-start-column="55" selection-end-line="13" selection-end-column="55" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/output.txt">
+    <entry file="file://$PROJECT_DIR$/outputs/delete.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-50114">
-          <caret line="124" column="9" selection-start-line="124" selection-start-column="7" selection-end-line="124" selection-end-column="9" />
+        <state relative-caret-position="17">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/delete.txt">
+    <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-49672">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="8" selection-end-line="12" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/outputs/ModelNumbers.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-52191" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/outputs/output.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-52191">
+          <caret column="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Run.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="187">
+          <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ModelNumberGenerator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="622">
+          <caret line="118" column="60" selection-start-line="118" selection-start-column="60" selection-end-line="118" selection-end-column="96" />
           <folding>
             <element signature="e#0#16#0" expanded="true" />
-            <element signature="e#1266#2626#0" />
-            <element signature="e#2665#2880#0" />
-            <element signature="e#2724#3567#0" />
-            <element signature="e#4120#4178#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShortDescriptionGenerator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="118" column="108" selection-start-line="118" selection-start-column="108" selection-end-line="118" selection-end-column="108" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LongDescriptionGenerator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="742">
+          <caret line="112" lean-forward="true" selection-start-line="112" selection-end-line="112" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
           </folding>
         </state>
       </provider>
