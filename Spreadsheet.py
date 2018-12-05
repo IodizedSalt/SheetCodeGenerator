@@ -10,4 +10,5 @@ client = gspread.authorize(creds)
 
 # Find a workbook by name and open the first sheet
 # Make sure you use the right name here.
-sheet = client.open("JCI-Triatek").sheet1
+
+sheet = client.open("JCI-Triatek").worksheet("old")
