@@ -7,18 +7,19 @@ import Spreadsheet as data  # importing the library as 'data'
 # ---------------------------#
 
 spreadsheet = data.sheet  # reference the JCI sheet as 'spreadsheet'
+finalSpreadSheet = data.FINALSHEET
 
 # Create Lists with all data from columns                           #todo, change these cell values
-brand = [x for x in spreadsheet.range("B18:B19") if x]
-ganged = [x for x in spreadsheet.range("C18:C21") if x]
-size = [x for x in spreadsheet.range("D18:D21") if x]
-material = [x for x in spreadsheet.range("E18:E19") if x]
-insulation = [x for x in spreadsheet.range("F18:F19") if x]
-actuator = [x for x in spreadsheet.range("G18:G19") if x]
-tType = [x for x in spreadsheet.range("H18:H19") if x]
-airflow = [x for x in spreadsheet.range("I18:I20") if x]
-pressure = [x for x in spreadsheet.range("J18:J19") if x]
-controller = [x for x in spreadsheet.range("K18:K19") if x]
+brand = [x for x in spreadsheet.range("B47:B48") if x]
+ganged = [x for x in spreadsheet.range("C47:C50") if x]
+size = [x for x in spreadsheet.range("D47:D50") if x]
+material = [x for x in spreadsheet.range("E47:E48") if x]
+insulation = [x for x in spreadsheet.range("F47:F48") if x]
+actuator = [x for x in spreadsheet.range("G47:G48") if x]
+tType = [x for x in spreadsheet.range("H47:H48") if x]
+airflow = [x for x in spreadsheet.range("I47:I49") if x]
+pressure = [x for x in spreadsheet.range("J47:J48") if x]
+controller = [x for x in spreadsheet.range("K47:K48") if x]
 
 # Create empty lists to store the cell values later                 #todo, change these listVariable Names
 brandConv = []
@@ -88,8 +89,8 @@ def loopList():
 
 def CVUException(x):                #todo, alter so exception works with new formatting
     # print(x)
-    if x.endswith("U"):
-        if "CV" in x:
+    if x.endswith("UVM"):
+        if "CONSTANT VOLUME," in x:
             return True
         else:
             return False
@@ -97,7 +98,7 @@ def CVUException(x):                #todo, alter so exception works with new for
         return False
 
 
-def concatination():
+def concatinationTxt():
     # create all possible combinations via means of Cartesian Product
     c = list(itertools.product(brandConv, gangedConv, sizeConv, materialConv, insulationConv, actuatorConv, tTypeConv,
                                airflowConv, pressureConv, controllerConv))
@@ -107,8 +108,8 @@ def concatination():
     itemsToRemove = list(set())
 
     for x in cFinal:
-        if ("208" in x or "308" in x
-                or "408" in x or "CVF" in x or CVUException(x)):
+        if ("DUAL,08in" in x or "TRIPPLE,08in" in x
+                or "QUAD,08in" in x or "CONSTANT VOLUME,FS," in x or CVUException(x)):
             itemsToRemove.append(x)
 
     cFinal = [x for x in cFinal if x not in itemsToRemove]
@@ -116,20 +117,48 @@ def concatination():
     return "\n".join(cFinal)
 
 
-def writeLongDescription(newFileData):                                          #todo, write directly to excel sheet
+def concatinationSheet():
+    # create all possible combinations via means of Cartesian Product
+    c = list(itertools.product(brandConv, gangedConv, sizeConv, materialConv, insulationConv, actuatorConv, tTypeConv,
+                               airflowConv, pressureConv, controllerConv))
+
+    # Concatenate each tuple in C to a single string
+    cFinal = list(''.join(c) for c in c)
+    itemsToRemove = list(set())
+
+    for x in cFinal:
+        if ("DUAL,08in" in x or "TRIPPLE,08in" in x
+                or "QUAD,08in" in x or "CONSTANT VOLUME,FS," in x or CVUException(x)):
+            itemsToRemove.append(x)
+
+    cFinal = [x for x in cFinal if x not in itemsToRemove]
+
+    return cFinal
+
+
+
+def writeModelNumbers(newFileData):
+
+    cell_list = finalSpreadSheet.range('G2:G3121')
+    cell_values = newFileData
+    print("LDG cell list length: ", cell_list.__len__())
+    print("LDG cell value length: ", cell_values.__len__())
+
+    for cell, x in enumerate(cell_values):
+        cell_list[cell].value = x
+
+    finalSpreadSheet.update_cells(cell_list)
+
+def writeModelNumbersToFile(newFileData):
+
     file = open("outputs/LongDescription.txt", "w")
     file.write(newFileData)
 
-
-
-
 def run():
-
     loopList()
-    writeLongDescription(concatination())
+    writeModelNumbers(concatinationSheet())
+    writeModelNumbersToFile(concatinationTxt())
 
 
 
-
-
-
+# run()

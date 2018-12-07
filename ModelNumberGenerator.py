@@ -7,18 +7,19 @@ import Spreadsheet as data  # importing the library as 'data'
 # ---------------------------#
 
 spreadsheet = data.sheet  # reference the JCI sheet as 'spreadsheet'
+finalSpreadSheet = data.FINALSHEET
 
 # Create Lists with all data from columns
-brand = [x for x in spreadsheet.range("B18:B19") if x]
-ganged = [x for x in spreadsheet.range("C18:C21") if x]
-size = [x for x in spreadsheet.range("D18:D21") if x]
-material = [x for x in spreadsheet.range("E18:E19") if x]
-insulation = [x for x in spreadsheet.range("F18:F19") if x]
-actuator = [x for x in spreadsheet.range("G18:G19") if x]
-tType = [x for x in spreadsheet.range("H18:H19") if x]
-airflow = [x for x in spreadsheet.range("I18:I20") if x]
-pressure = [x for x in spreadsheet.range("J18:J19") if x]
-controller = [x for x in spreadsheet.range("K18:K19") if x]
+brand = [x for x in spreadsheet.range("B19:B20") if x]
+ganged = [x for x in spreadsheet.range("C19:C22") if x]
+size = [x for x in spreadsheet.range("D19:D22") if x]
+material = [x for x in spreadsheet.range("E19:E20") if x]
+insulation = [x for x in spreadsheet.range("F19:F20") if x]
+actuator = [x for x in spreadsheet.range("G19:G20") if x]
+tType = [x for x in spreadsheet.range("H19:H20") if x]
+airflow = [x for x in spreadsheet.range("I19:I21") if x]
+pressure = [x for x in spreadsheet.range("J19:J20") if x]
+controller = [x for x in spreadsheet.range("K19:K20") if x]
 
 # Create empty lists to store the cell values later
 brandConv = []
@@ -96,8 +97,7 @@ def CVUException(x):
     else:
         return False
 
-
-def concatination():
+def concatinationTxt():             #This function writes to the local txt file
     # create all possible combinations via means of Cartesian Product
     c = list(itertools.product(brandConv, gangedConv, sizeConv, materialConv, insulationConv, actuatorConv, tTypeConv,
                                airflowConv, pressureConv, controllerConv))
@@ -114,16 +114,48 @@ def concatination():
     cFinal = [x for x in cFinal if x not in itemsToRemove]
 
     return "\n".join(cFinal)
+    # return cFinal
 
+def concatinationSheet():           #This function writes to the sheet
+    # create all possible combinations via means of Cartesian Product
+    c = list(itertools.product(brandConv, gangedConv, sizeConv, materialConv, insulationConv, actuatorConv, tTypeConv,
+                               airflowConv, pressureConv, controllerConv))
 
-def writeModelNumbers(newFileData):                         #todo, write directly to excel sheet
+    # Concatenate each tuple in C to a single string
+    cFinal = list(''.join(c) for c in c)
+    itemsToRemove = list(set())
+
+    for x in cFinal:
+        if ("208" in x or "308" in x
+                or "408" in x or "CVF" in x or CVUException(x)):
+            itemsToRemove.append(x)
+
+    cFinal = [x for x in cFinal if x not in itemsToRemove]
+
+    # return "\n".join(cFinal)
+    return cFinal
+
+def writeModelNumbers(newFileData):
+
+    cell_list = finalSpreadSheet.range('B2:B3121')
+    cell_values = newFileData
+
+    print("MNG cell list length: ", cell_list.__len__())
+    print("MNG cell value length: ",cell_values.__len__())
+
+    for cell, x in enumerate(cell_values):
+        cell_list[cell].value = x
+
+    finalSpreadSheet.update_cells(cell_list)
+
+def writeModelNumbersToFile(newFileData):
+
     file = open("outputs/ModelNumbers.txt", "w")
     file.write(newFileData)
 
-
-
-
 def run():
     loopList()
-    writeModelNumbers(concatination())
+    writeModelNumbers(concatinationSheet())
+    writeModelNumbersToFile(concatinationTxt())
 
+# run()

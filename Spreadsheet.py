@@ -12,3 +12,4 @@ client = gspread.authorize(creds)
 # Make sure you use the right name here.
 
 sheet = client.open("JCI-Triatek").worksheet("DATA SETS")
+FINALSHEET = client.open("JCI-Triatek").worksheet("FINAL SPREADSHEET")
