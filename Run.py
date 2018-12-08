@@ -1,8 +1,16 @@
-import threading
+# -*- coding: utf-8 -*-
 
+
+import threading
+import gspread
 import ModelNumberGenerator as MNG
 import ShortDescriptionGenerator as SDG
 import LongDescriptionGenerator as LDG
+
+import Spreadsheet as data
+
+spreadsheet = data.sheet  # reference the JCI sheet as 'spreadsheet'
+finalSpreadSheet = data.FINALSHEET
 
 def main():
     a = threading.Thread(target=MNG.run())
