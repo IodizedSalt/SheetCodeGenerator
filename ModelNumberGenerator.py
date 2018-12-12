@@ -106,7 +106,15 @@ def FANException(x):
             return False
     else:
         return False
-
+def fourTeenFException(x):
+    # print(x)
+    if "14" in x:
+        if "F" in x[9]:
+            return True
+        else:
+            return False
+    else:
+        return False
 def concatinationTxt():             #This function writes to the local txt file
     # create all possible combinations via means of Cartesian Product
     c = list(itertools.product(brandConv, gangedConv, sizeConv, materialConv, insulationConv, actuatorConv, tTypeConv,
@@ -118,7 +126,7 @@ def concatinationTxt():             #This function writes to the local txt file
 
     for x in cFinal:
         if ("208" in x or "308" in x
-                or "408" in x or "CVF" in x or CVUException(x) or FANException(x)):
+                or "408" in x or "CVF" in x or CVUException(x) or FANException(x) or fourTeenFException(x)):
             itemsToRemove.append(x)
 
     cFinal = [x for x in cFinal if x not in itemsToRemove]
@@ -137,7 +145,7 @@ def concatinationSheet():           #This function writes to the sheet
 
     for x in cFinal:
         if ("208" in x or "308" in x
-                or "408" in x or "CVF" in x or CVUException(x)or FANException(x)):
+                or "408" in x or "CVF" in x or CVUException(x)or FANException(x) or fourTeenFException(x)):
             itemsToRemove.append(x)
 
     cFinal = [x for x in cFinal if x not in itemsToRemove]
@@ -149,7 +157,7 @@ def writeModelNumbers(newFileData):
 
     #todo, write delete/flush column statment in the three classes
 
-    cell_list = finalSpreadSheet.range('B2:B1873')
+    cell_list = finalSpreadSheet.range('B2:B1681')
     cell_values = newFileData
 
     print("MNG cell list length: ", cell_list.__len__())

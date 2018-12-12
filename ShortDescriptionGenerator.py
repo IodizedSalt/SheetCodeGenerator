@@ -107,6 +107,16 @@ def FANException(x):
     else:
         return False
 
+def fourTeenFException(x):
+    # print(x)
+    if "14," in x:
+        if "FS," in x:
+            return True
+        else:
+            return False
+    else:
+        return False
+
 def concatinationTxt():
     # create all possible combinations via means of Cartesian Product
     c = list(itertools.product(brandConv, gangedConv, sizeConv, materialConv, insulationConv, actuatorConv, tTypeConv,
@@ -118,7 +128,7 @@ def concatinationTxt():
 
     for x in cFinal:
         if ("D,08" in x or "T,08" in x
-                or "Q,08" in x or "CV,FS" in x or CVUException(x) or FANException(x)):
+                or "Q,08" in x or "CV,FS" in x or CVUException(x) or FANException(x) or fourTeenFException(x)):
             itemsToRemove.append(x)
 
     cFinal = [x for x in cFinal if x not in itemsToRemove]
@@ -137,7 +147,7 @@ def concatinationSheet():
 
     for x in cFinal:
         if ("D,08" in x or "T,08" in x
-                or "Q,08" in x or "CV,FS" in x or CVUException(x) or FANException(x)):
+                or "Q,08" in x or "CV,FS" in x or CVUException(x) or FANException(x) or fourTeenFException(x)):
             itemsToRemove.append(x)
 
     cFinal = [x for x in cFinal if x not in itemsToRemove]
@@ -149,7 +159,7 @@ def concatinationSheet():
 
 def writeModelNumbers(newFileData):
 
-    cell_list = finalSpreadSheet.range('F2:F1873')
+    cell_list = finalSpreadSheet.range('F2:F1681')
     cell_values = newFileData
     print("SDG cell list length: ", cell_list.__len__())
     print("SDG cell value length: ", cell_values.__len__())
