@@ -87,7 +87,7 @@ def loopList():
         controllerConv.append(xString[1])
 
 
-def CVUException(x):                #todo, alter so exception works with new formatting
+def CVUException(x):
     # print(x)
     if x.endswith("UVM"):
         if "CONSTANT VOLUME," in x:
@@ -97,6 +97,16 @@ def CVUException(x):                #todo, alter so exception works with new for
     else:
         return False
 
+
+def FANException(x):
+    # print(x)
+    if x.endswith("UVM"):
+        if "FAST ACTING," in x:
+            return True
+        else:
+            return False
+    else:
+        return False
 
 def concatinationTxt():
     # create all possible combinations via means of Cartesian Product
@@ -109,7 +119,7 @@ def concatinationTxt():
 
     for x in cFinal:
         if ("DUAL,08in" in x or "TRIPPLE,08in" in x
-                or "QUAD,08in" in x or "CONSTANT VOLUME,FS," in x or CVUException(x)):
+                or "QUAD,08in" in x or "CONSTANT VOLUME,FS," in x or CVUException(x)or FANException(x)):
             itemsToRemove.append(x)
 
     cFinal = [x for x in cFinal if x not in itemsToRemove]
@@ -128,7 +138,7 @@ def concatinationSheet():
 
     for x in cFinal:
         if ("DUAL,08in" in x or "TRIPPLE,08in" in x
-                or "QUAD,08in" in x or "CONSTANT VOLUME,FS," in x or CVUException(x)):
+                or "QUAD,08in" in x or "CONSTANT VOLUME,FS," in x or CVUException(x) or FANException(x)):
             itemsToRemove.append(x)
 
     cFinal = [x for x in cFinal if x not in itemsToRemove]
@@ -139,7 +149,7 @@ def concatinationSheet():
 
 def writeModelNumbers(newFileData):
 
-    cell_list = finalSpreadSheet.range('G2:G3121')
+    cell_list = finalSpreadSheet.range('G2:G1873')
     cell_values = newFileData
     print("LDG cell list length: ", cell_list.__len__())
     print("LDG cell value length: ", cell_values.__len__())
