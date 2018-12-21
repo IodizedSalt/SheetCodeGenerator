@@ -1,6 +1,7 @@
 import itertools
 
 import Spreadsheet as data  # importing the library as 'data'
+import re
 
 # ---------------------------#
 # Created by Chris 29/11/2018
@@ -10,16 +11,16 @@ spreadsheet = data.sheet  # reference the JCI sheet as 'spreadsheet'
 finalSpreadSheet = data.FINALSHEET
 
 # Create Lists with all data from columns
-brand = [x for x in spreadsheet.range("B47:B48") if x]
-ganged = [x for x in spreadsheet.range("C47:C50") if x]
-size = [x for x in spreadsheet.range("D47:D50") if x]
-material = [x for x in spreadsheet.range("E47:E48") if x]
-insulation = [x for x in spreadsheet.range("F47:F48") if x]
-actuator = [x for x in spreadsheet.range("G47:G48") if x]
-tType = [x for x in spreadsheet.range("H47:H48") if x]
-airflow = [x for x in spreadsheet.range("I47:I49") if x]
-pressure = [x for x in spreadsheet.range("J47:J48") if x]
-controller = [x for x in spreadsheet.range("K47:K48") if x]
+brand = [x for x in spreadsheet.range("B34:B35") if x]
+ganged = [x for x in spreadsheet.range("C34:C37") if x]
+size = [x for x in spreadsheet.range("D34:D37") if x]
+material = [x for x in spreadsheet.range("E34:E35") if x]
+insulation = [x for x in spreadsheet.range("F34:F35") if x]
+actuator = [x for x in spreadsheet.range("G34:G35") if x]
+tType = [x for x in spreadsheet.range("H34:H35") if x]
+airflow = [x for x in spreadsheet.range("I34:I36") if x]
+pressure = [x for x in spreadsheet.range("J34:J35") if x]
+controller = [x for x in spreadsheet.range("K34:K35") if x]
 
 # Create empty lists to store the cell values later
 brandConv = []
@@ -89,8 +90,8 @@ def loopList():
 
 def CVUException(x):
     # print(x)
-    if x.endswith("UVM"):
-        if "CONSTANT VOLUME," in x:
+    if x.endswith("U"):
+        if "CV," in x:
             return True
         else:
             return False
@@ -100,16 +101,18 @@ def CVUException(x):
 
 def FANException(x):
     # print(x)
-    if x.endswith("UVM"):
-        if "FAST ACTING," in x:
+    if x.endswith("N"):
+        if "FA," in x:
             return True
         else:
             return False
     else:
         return False
+
+
 def fourTeenFException(x):
     # print(x)
-    if "14in," in x:
+    if "14," in x:
         if "FS," in x:
             return True
         else:
@@ -117,21 +120,26 @@ def fourTeenFException(x):
     else:
         return False
 
+
 def concatinationTxt():
     # create all possible combinations via means of Cartesian Product
     c = list(itertools.product(brandConv, gangedConv, sizeConv, materialConv, insulationConv, actuatorConv, tTypeConv,
                                airflowConv, pressureConv, controllerConv))
-
     # Concatenate each tuple in C to a single string
     cFinal = list(''.join(c) for c in c)
     itemsToRemove = list(set())
 
     for x in cFinal:
-        if ("DUAL,08in" in x or "TRIPPLE,08in" in x
-                or "QUAD,08in" in x or "CONSTANT VOLUME,FS," in x or CVUException(x)or FANException(x) or fourTeenFException(x)):
+        if ("2x08" in x or "3x08" in x
+                or "4x08" in x or "CV,FS" in x or CVUException(x) or FANException(x) or fourTeenFException(x)):
             itemsToRemove.append(x)
 
-    cFinal = [x for x in cFinal if x not in itemsToRemove]
+    bFinal = [x for x in cFinal if x not in itemsToRemove]
+
+    cFinal = [x.replace('AL,', '').replace('HR,', '').replace('ON,', '').replace('IN,', '').replace(',H,', ',')
+                  .replace(',U,', ',').replace(',D,', ',').replace('LPU', 'LP')
+                        .replace('LPN', 'LP').replace('MPU', 'MP').replace('MPN', 'MP')
+              for x in bFinal]
 
     return "\n".join(cFinal)
 
@@ -140,45 +148,46 @@ def concatinationSheet():
     # create all possible combinations via means of Cartesian Product
     c = list(itertools.product(brandConv, gangedConv, sizeConv, materialConv, insulationConv, actuatorConv, tTypeConv,
                                airflowConv, pressureConv, controllerConv))
-
     # Concatenate each tuple in C to a single string
     cFinal = list(''.join(c) for c in c)
     itemsToRemove = list(set())
-
     for x in cFinal:
-        if ("DUAL,08in" in x or "TRIPPLE,08in" in x
-                or "QUAD,08in" in x or "CONSTANT VOLUME,FS," in x or CVUException(x) or FANException(x) or fourTeenFException(x)):
+        if ("2x08" in x or "3x08" in x
+                or "4x08" in x or "CV,FS" in x or CVUException(x) or FANException(x) or fourTeenFException(x)):
             itemsToRemove.append(x)
 
-    cFinal = [x for x in cFinal if x not in itemsToRemove]
+    bFinal = [x for x in cFinal if x not in itemsToRemove]
+
+    cFinal = [x.replace('AL,', '').replace('HR,', '').replace('ON,', '').replace('IN,', '').replace(',H,', ',')
+                  .replace(',U,', ',').replace(',D,', ',').replace('LPU', 'LP')
+                        .replace('LPN', 'LP').replace('MPU', 'MP').replace('MPN', 'MP')
+              for x in bFinal]
 
     return cFinal
 
 
-
 def writeModelNumbers(newFileData):
-
-    cell_list = finalSpreadSheet.range('G2:G1681')
+    cell_list = finalSpreadSheet.range('F2:F1681')
     cell_values = newFileData
-    print("LDG cell list length: ", cell_list.__len__())
-    print("LDG cell value length: ", cell_values.__len__())
+    print("SDG cell list length: ", cell_list.__len__())
+    print("SDG cell value length: ", cell_values.__len__())
 
     for cell, x in enumerate(cell_values):
         cell_list[cell].value = x
 
     finalSpreadSheet.update_cells(cell_list)
 
-def writeModelNumbersToFile(newFileData):
 
-    file = open("outputs/LongDescription.txt", "w")
+def writeModelNumbersToFile(newFileData):
+    file = open("outputs/ShortDescription2.0.txt", "w")
     file.write(newFileData)
+
 
 def run():
     loopList()
-    # writeModelNumbers(concatinationSheet())
+    writeModelNumbers(concatinationSheet())
     writeModelNumbersToFile(concatinationTxt())
-    print(controllerConv)
-
+    print("write success")
 
 
 run()

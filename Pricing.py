@@ -2,7 +2,6 @@ import json
 import time
 
 import Spreadsheet as data
-from pprint import pprint
 
 finalSpreadSheet = data.FINALSHEET
 priceSheet = data.price
@@ -14,7 +13,7 @@ modelNum = {}
 priceList = {}
 
 
-def loopList():  # todo, refactor this cuz this is prolly fucked
+def loopList():
     for x in modelNumInvalidFormat:
         xString = str(x)
         xString = xString.split("'")
@@ -1020,16 +1019,32 @@ def ifColDGanged(x):
 
 def priceColG():
     for x in modelNum:
-        if "N" in x[2]:
+        if "N" in x[6]:
             pass
         elif "I" in x[6]:
             ifColG(x)
-            # pass  #x2 for all values
 
     return "\n".join(modelNum)
 
 
 def ifColG(x):
+    if "N" in x[2]:
+        if "08" in x[3:5]:
+            a = modelNum[x]
+            a += (16.87)
+            modelNum.update({x: a})
+        elif "10" in x[3:5]:
+            a = modelNum[x]
+            a += (27.02)
+            modelNum.update({x: a})
+        elif "12" in x[3:5]:
+            a = modelNum[x]
+            a += (24.52)
+            modelNum.update({x: a})
+        elif "14" in x[3:5]:
+            a = modelNum[x]
+            a += (32.22)
+            modelNum.update({x: a})
     if "2" in x[2]:
         if "08" in x[3:5]:
             a = modelNum[x]
@@ -1208,6 +1223,43 @@ def uvmCost():
                 a += 116.96
                 modelNum.update({x: a})
 
+def colK():
+    for x in modelNum:
+        if "2" in x[2]:
+            a = modelNum[x]
+            a += (10.00 * 2)
+            modelNum.update({x: a})
+        elif "3" in x[2]:
+            a = modelNum[x]
+            a += (10.00 * 3)
+            modelNum.update({x: a})
+        elif "4" in x[2]:
+            a = modelNum[x]
+            a += (10.00 * 4)
+            modelNum.update({x: a})
+        else:
+            a = modelNum[x]
+            a += 10.00
+            modelNum.update({x: a})
+def colL():
+    for x in modelNum:
+        if "2" in x[2]:
+            a = modelNum[x]
+            a += (10.00 * 2)
+            modelNum.update({x: a})
+        elif "3" in x[2]:
+            a = modelNum[x]
+            a += (10.00 * 3)
+            modelNum.update({x: a})
+        elif "4" in x[2]:
+            a = modelNum[x]
+            a += (10.00 * 4)
+            modelNum.update({x: a})
+        else:
+            a = modelNum[x]
+            a += 10.00
+            modelNum.update({x: a})
+
 
 
 def writeModelNumbersToFile(newFileData):
@@ -1246,6 +1298,8 @@ def main():
     priceColG()
     priceColHorI()
     uvmCost()
+    colK()
+    colL()
 
     # print(modelNum)
 

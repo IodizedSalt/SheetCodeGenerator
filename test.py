@@ -1,13 +1,7 @@
-import unittest
-import Run
+import re
 
-class testCode(unittest.TestCase):
-    def test(self):
-        # self.assertTrue("JV310AIFAPHLU", Run.concatination())
-        self.assertTrue("VVN08ANCVPHLU", Run.CVUException("VVN08ANCVPHLU"))
+a = "VENTURI VLV,4x14,AL,ON,CV,PC,U,MPN"
 
-def main():
-    unittest.main()
 
-if __name__ == "__main__":
-    main()
+
+print(a.replace(',U,', ','))

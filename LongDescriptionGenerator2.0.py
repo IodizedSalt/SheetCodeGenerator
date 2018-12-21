@@ -100,13 +100,14 @@ def CVUException(x):
 
 def FANException(x):
     # print(x)
-    if x.endswith("UVM"):
+    if x.endswith("NO CTRL"):
         if "FAST ACTING," in x:
             return True
         else:
             return False
     else:
         return False
+
 def fourTeenFException(x):
     # print(x)
     if "14in," in x:
@@ -127,8 +128,8 @@ def concatinationTxt():
     itemsToRemove = list(set())
 
     for x in cFinal:
-        if ("DUAL,08in" in x or "TRIPPLE,08in" in x
-                or "QUAD,08in" in x or "CONSTANT VOLUME,FS," in x or CVUException(x)or FANException(x) or fourTeenFException(x)):
+        if ("2x08in" in x or "3x08in" in x
+                or "4x08in" in x or "CONSTANT VOLUME,FS," in x or CVUException(x)or FANException(x) or fourTeenFException(x)):
             itemsToRemove.append(x)
 
     cFinal = [x for x in cFinal if x not in itemsToRemove]
@@ -146,8 +147,8 @@ def concatinationSheet():
     itemsToRemove = list(set())
 
     for x in cFinal:
-        if ("DUAL,08in" in x or "TRIPPLE,08in" in x
-                or "QUAD,08in" in x or "CONSTANT VOLUME,FS," in x or CVUException(x) or FANException(x) or fourTeenFException(x)):
+        if ("2x08in" in x or "3x08in" in x
+                or "4x08in" in x or "CONSTANT VOLUME,FS," in x or CVUException(x)or FANException(x) or fourTeenFException(x)):
             itemsToRemove.append(x)
 
     cFinal = [x for x in cFinal if x not in itemsToRemove]
@@ -170,14 +171,14 @@ def writeModelNumbers(newFileData):
 
 def writeModelNumbersToFile(newFileData):
 
-    file = open("outputs/LongDescription.txt", "w")
+    file = open("outputs/LongDescription2.0.txt", "w")
     file.write(newFileData)
 
 def run():
     loopList()
-    # writeModelNumbers(concatinationSheet())
+    writeModelNumbers(concatinationSheet())
     writeModelNumbersToFile(concatinationTxt())
-    print(controllerConv)
+    print("Write Success")
 
 
 
