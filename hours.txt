@@ -1,0 +1,25 @@
+JCI HOURS LOG
+29/11/18
+3.5 hours -- setup base script to generate all code#s
+
+04/12/18
+2.0 hours -- setup exceptions to limit code#s that are invalid
+
+5/12/18
+
+1.5 hours -- Fixed exceptions to limit code#s and made output save to a txt file
+
+7/12/18
+2.0 hours -- Finished short and long descriptions, made threads to run sequentially to write to doc
+
+11/12/18
+-Began the pricing sheet (2.0 hours)
+
+12/12/18
+-Finished pricing sheet ( 09:00 - 15:51) -1 hour for lunch  == 5 hours, 51 min
+
+17/12/18
+-Finished Weights sheet (1.0 hours)
+
+21/12/18
+-Remodeled strucutre of Short and Long Descriptions, recalculated prices  (1.75 hours)     (19.03 - 20.47)

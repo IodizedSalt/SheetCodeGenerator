@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d404c5b8-602b-423c-a652-facda5210eaf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/LongDescriptionGenerator2.0.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShortDescriptionGenerator2.0.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Weights.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/JCI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/JCI.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LongDescriptionGenerator.py" beforeDir="false" afterPath="$PROJECT_DIR$/LongDescriptionGenerator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pricing.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pricing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spreadsheet.py" beforeDir="false" afterPath="$PROJECT_DIR$/Spreadsheet.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/outputs/LongDescription.txt" beforeDir="false" afterPath="$PROJECT_DIR$/outputs/LongDescription.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/outputs/dictionary.json" beforeDir="false" afterPath="$PROJECT_DIR$/outputs/dictionary.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
-    </list>
+    <list default="true" id="d404c5b8-602b-423c-a652-facda5210eaf" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,52 +39,6 @@
     <expand />
     <select />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="390580553">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="4" />
-          <entry key="project.open.time.1" value="2" />
-          <entry key="project.open.time.16" value="1" />
-          <entry key="project.open.time.7" value="1" />
-          <entry key="project.open.time.8" value="2" />
-          <entry key="project.opened" value="6" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="gitignore" value="11" />
-          <entry key="py" value="5328" />
-          <entry key="todo" value="40" />
-          <entry key="txt" value="227" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="Git file" value="11" />
-          <entry key="PLAIN_TEXT" value="267" />
-          <entry key="Python" value="5328" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="gitignore" value="1" />
-          <entry key="json" value="3" />
-          <entry key="py" value="11" />
-          <entry key="todo" value="1" />
-          <entry key="txt" value="15" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="Git file" value="1" />
-          <entry key="JSON" value="3" />
-          <entry key="PLAIN_TEXT" value="16" />
-          <entry key="Python" value="11" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
@@ -112,17 +53,32 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Pricing.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
+            <state relative-caret-position="1031">
               <caret line="1310" column="28" selection-start-line="1310" selection-start-column="28" selection-end-line="1310" selection-end-column="28" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
-                <marker date="1545421599829" expanded="true" signature="717:720" ph="..." />
-                <marker date="1545421599829" expanded="true" signature="736:41409" ph="..." />
-                <marker date="1545421599829" expanded="true" signature="39705:40679" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="404">
+              <caret line="24" column="4" lean-forward="true" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/hours.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="25" lean-forward="true" selection-end-line="25" />
             </state>
           </provider>
         </entry>
@@ -131,7 +87,7 @@
         <entry file="file://$PROJECT_DIR$/test.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="6" column="28" lean-forward="true" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+              <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -139,8 +95,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/outputs/ShortDescription.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15009">
-              <caret line="1678" column="25" lean-forward="true" selection-start-line="1678" selection-start-column="25" selection-end-line="1678" selection-end-column="25" />
+            <state relative-caret-position="28526">
+              <caret line="1678" column="25" selection-start-line="1678" selection-start-column="25" selection-end-line="1678" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -148,8 +104,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LongDescriptionGenerator2.0.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="180" column="17" lean-forward="true" selection-start-line="180" selection-start-column="17" selection-end-line="180" selection-end-column="17" />
+            <state relative-caret-position="3026">
+              <caret line="180" column="17" selection-start-line="180" selection-start-column="17" selection-end-line="180" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -157,17 +113,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/outputs/LongDescription2.0.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="35">
+            <state relative-caret-position="28220">
               <caret line="1660" column="38" selection-start-line="1660" selection-start-column="38" selection-end-line="1660" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hours.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -231,14 +178,12 @@
         <option value="$PROJECT_DIR$/outputs/ShortDescription.txt" />
         <option value="$PROJECT_DIR$/Run.py" />
         <option value="$PROJECT_DIR$/todo" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/outputs/dictionary.txt" />
         <option value="$PROJECT_DIR$/outputs/Pricing.txt" />
         <option value="$PROJECT_DIR$/outputs/ModelNumbers.txt" />
         <option value="$PROJECT_DIR$/ModelNumberGenerator.py" />
         <option value="$PROJECT_DIR$/ShortDescriptionGenerator.py" />
         <option value="$PROJECT_DIR$/Weights.py" />
-        <option value="$PROJECT_DIR$/hours.txt" />
         <option value="$PROJECT_DIR$/Spreadsheet.py" />
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/ShortDescriptionGenerator2.0.py" />
@@ -246,14 +191,10 @@
         <option value="$PROJECT_DIR$/LongDescriptionGenerator.py" />
         <option value="$PROJECT_DIR$/LongDescriptionGenerator2.0.py" />
         <option value="$PROJECT_DIR$/Pricing.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/hours.txt" />
       </list>
     </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="543" />
@@ -267,23 +208,18 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="SheetCodeGenerator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SheetCodeGenerator" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SheetCodeGenerator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SheetCodeGenerator" type="462c0819:PsiDirectoryNode" />
-              <item name="outputs" type="462c0819:PsiDirectoryNode" />
+              <item name="JCI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JCI" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -294,14 +230,14 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Dk\Workspace\Python\JCI\SheetCodeGenerator\outputs" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Workspace\Python\JCI" />
       <recent name="C:\Users\Dk\Workspace\Python\JCI\SheetCodeGenerator\outputs" />
       <recent name="C:\Users\Dk\Workspace\Python\JCI\SheetCodeGenerator" />
       <recent name="C:\Workspace\Python\JCI\outputs" />
-      <recent name="C:\Workspace\Python\JCI" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Dk\Workspace\Python\JCI\SheetCodeGenerator\outputs" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -462,6 +398,7 @@
       <workItem from="1544197025794" duration="6316000" />
       <workItem from="1544211224049" duration="697000" />
       <workItem from="1544270123666" duration="31000" />
+      <workItem from="1546021357641" duration="548000" />
     </task>
     <servers />
   </component>
@@ -489,13 +426,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33949000" />
+    <option name="totallyTimeSpent" value="34497000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30591258" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30842608" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -521,9 +458,6 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/output" />
     <entry file="file://$PROJECT_DIR$/outputs/delete.txt">
@@ -543,22 +477,9 @@
     <entry file="file://$PROJECT_DIR$/client_secret.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/todo">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="40" selection-start-column="40" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/todo" />
     <entry file="file://$PROJECT_DIR$/outputs/dictionary.txt" />
     <entry file="file://$PROJECT_DIR$/outputs/players.json" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Run.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -599,34 +520,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hours.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spreadsheet.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/outputs/LongDescription.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="2043" column="9" selection-start-line="2043" selection-start-column="9" selection-end-line="2043" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="28" lean-forward="true" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -637,13 +534,6 @@
           <folding>
             <element signature="e#0#16#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/outputs/ShortDescription.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15009">
-          <caret line="1678" column="25" lean-forward="true" selection-start-line="1678" selection-start-column="25" selection-end-line="1678" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -672,30 +562,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/outputs/LongDescription2.0.txt">
+    <entry file="file://$PROJECT_DIR$/Spreadsheet.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="35">
-          <caret line="1660" column="38" selection-start-line="1660" selection-start-column="38" selection-end-line="1660" selection-end-column="38" />
+        <state relative-caret-position="238">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/outputs/ShortDescription.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28526">
+          <caret line="1678" column="25" selection-start-line="1678" selection-start-column="25" selection-end-line="1678" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/LongDescriptionGenerator2.0.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="180" column="17" lean-forward="true" selection-start-line="180" selection-start-column="17" selection-end-line="180" selection-end-column="17" />
+        <state relative-caret-position="3026">
+          <caret line="180" column="17" selection-start-line="180" selection-start-column="17" selection-end-line="180" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/outputs/LongDescription2.0.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28220">
+          <caret line="1660" column="38" selection-start-line="1660" selection-start-column="38" selection-end-line="1660" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Pricing.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
+        <state relative-caret-position="1031">
           <caret line="1310" column="28" selection-start-line="1310" selection-start-column="28" selection-end-line="1310" selection-end-column="28" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
-            <marker date="1545421599829" expanded="true" signature="717:720" ph="..." />
-            <marker date="1545421599829" expanded="true" signature="736:41409" ph="..." />
-            <marker date="1545421599829" expanded="true" signature="39705:40679" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="24" column="4" lean-forward="true" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hours.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" lean-forward="true" selection-end-line="25" />
         </state>
       </provider>
     </entry>
