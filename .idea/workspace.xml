@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d404c5b8-602b-423c-a652-facda5210eaf" name="Default Changelist" comment="" />
+    <list default="true" id="d404c5b8-602b-423c-a652-facda5210eaf" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hours.txt" beforeDir="false" afterPath="$PROJECT_DIR$/hours.txt" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,8 +80,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/hours.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" lean-forward="true" selection-end-line="25" />
+            <state relative-caret-position="459">
+              <caret line="27" column="2" selection-start-line="27" selection-start-column="2" selection-end-line="27" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -398,7 +401,7 @@
       <workItem from="1544197025794" duration="6316000" />
       <workItem from="1544211224049" duration="697000" />
       <workItem from="1544270123666" duration="31000" />
-      <workItem from="1546021357641" duration="548000" />
+      <workItem from="1546021357641" duration="3119000" />
     </task>
     <servers />
   </component>
@@ -426,7 +429,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34497000" />
+    <option name="totallyTimeSpent" value="37068000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
@@ -619,8 +622,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/hours.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" lean-forward="true" selection-end-line="25" />
+        <state relative-caret-position="459">
+          <caret line="27" column="2" selection-start-line="27" selection-start-column="2" selection-end-line="27" selection-end-column="2" />
         </state>
       </provider>
     </entry>
