@@ -701,7 +701,7 @@ def ifColC(x):
                 a = modelNum[x]
                 a += 194.54
                 modelNum.update({x: a})
-        elif "U" in x[9] or "D" in x[9]:
+        elif "U" in x[10] or "D" in x[10]:
             if "08" in x[3:5]:
                 a = modelNum[x]
                 a += 217.75
