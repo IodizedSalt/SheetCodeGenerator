@@ -1208,15 +1208,15 @@ def uvmCost():
         if "U" in x[12]:
             if "2" in x[2]:
                 a = modelNum[x]
-                a += (116.96*2)
+                a += (116.96)
                 modelNum.update({x: a})
             elif "3" in x[2]:
                 a = modelNum[x]
-                a += (116.96*3)
+                a += (116.96)
                 modelNum.update({x: a})
             elif "4" in x[2]:
                 a = modelNum[x]
-                a += (116.96*4)
+                a += (116.96)
                 modelNum.update({x: a})
             else:
                 a = modelNum[x]
@@ -1308,7 +1308,7 @@ def main():
 
     writeCostDictionaryToFile(modelNum)  # writes to dictionary.json
 
-    writeModelNumberstoSheet(priceList)  # writes to sheet
+    # writeModelNumberstoSheet(priceList)  # writes to sheet
     print("Write Success")
 
 

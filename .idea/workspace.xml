@@ -27,7 +27,7 @@
     <SUITE FILE_PATH="coverage/SheetCodeGenerator$Run.coverage" NAME="Run Coverage Results" MODIFIED="1544636498027" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/JCI$Run.coverage" NAME="Run Coverage Results" MODIFIED="1544206210891" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/JCI$Spreadsheet.coverage" NAME="Spreadsheet Coverage Results" MODIFIED="1543493842680" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/SheetCodeGenerator$Pricing.coverage" NAME="Pricing Coverage Results" MODIFIED="1551474643713" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/SheetCodeGenerator$Pricing.coverage" NAME="Pricing Coverage Results" MODIFIED="1555970801670" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -47,32 +47,35 @@
     <session id="390580553">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="7" />
+          <entry key="py" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="7" />
+          <entry key="Python" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="json" value="1" />
+          <entry key="json" value="2" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JSON" value="1" />
+          <entry key="JSON" value="2" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
@@ -83,7 +86,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Spreadsheet.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
+            <state relative-caret-position="221">
               <caret line="14" selection-start-line="14" selection-end-line="14" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
@@ -95,25 +98,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Pricing.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1165">
-              <caret line="1307" lean-forward="true" selection-start-line="1307" selection-end-line="1307" />
+            <state relative-caret-position="264">
+              <caret line="1121" column="26" selection-start-line="1121" selection-start-column="21" selection-end-line="1121" selection-end-column="26" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
-                <element signature="e#741#878#0" />
-                <element signature="e#3022#10006#0" />
                 <element signature="e#10030#10245#0" />
                 <element signature="e#10267#13146#0" />
-                <element signature="e#13174#22204#0" />
-                <element signature="e#29879#30094#0" />
-                <element signature="e#30116#30321#0" />
-                <element signature="e#30349#33849#0" />
-                <element signature="e#33873#34012#0" />
-                <element signature="e#34034#36041#0" />
-                <element signature="e#36068#36198#0" />
-                <element signature="e#36223#39109#0" />
-                <element signature="e#39131#39692#0" />
-                <element signature="e#39710#40184#0" />
-                <element signature="e#40201#40675#0" />
               </folding>
             </state>
           </provider>
@@ -122,8 +112,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/outputs/dictionary.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="919" column="12" lean-forward="true" selection-start-line="919" selection-start-column="12" selection-end-line="919" selection-end-column="12" />
+            <state relative-caret-position="145">
+              <caret line="343" column="16" selection-start-line="343" selection-start-column="3" selection-end-line="343" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -144,22 +134,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>208</find>
-      <find>JV414HNFAPHMU</find>
-      <find>CVF</find>
-      <find>JV414HIFAFDLU</find>
-      <find>VVN08ANCVFHMU</find>
-      <find>d,8</find>
-      <find>CV</find>
-      <find>DUAL,08</find>
-      <find>CONSTANT VOLUME</find>
-      <find>DUAL</find>
-      <find>TRIPPLE</find>
-      <find>175</find>
-      <find>08</find>
-      <find>176</find>
-      <find>FA</find>
-      <find>VV2</find>
       <find>vv210</find>
       <find>VVN14AIFAFULU</find>
       <find>14</find>
@@ -174,6 +148,22 @@
       <find>14IN</find>
       <find>08IN,</find>
       <find>JVN10ANFAPDMU</find>
+      <find>pricecolA</find>
+      <find>ifcolcganged</find>
+      <find>VV210ANFAPHLU</find>
+      <find>ifcolh</find>
+      <find>213.</find>
+      <find>15.60</find>
+      <find>10</find>
+      <find>10.00</find>
+      <find>116.96</find>
+      <find>88.23</find>
+      <find>52.26</find>
+      <find>212.</find>
+      <find>VV312ANFAPHLU</find>
+      <find>11.</find>
+      <find>colH</find>
+      <find>VV212ANFAPHLU</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -455,19 +445,20 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.34190232" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.35539845" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32884097" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3045822" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3045822" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39892185" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32884097" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="11" />
@@ -608,19 +599,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/outputs/Pricing.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/outputs/dictionary.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="919" column="12" lean-forward="true" selection-start-line="919" selection-start-column="12" selection-end-line="919" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Spreadsheet.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
+        <state relative-caret-position="221">
           <caret line="14" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
@@ -628,27 +609,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/outputs/Pricing.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/outputs/dictionary.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="343" column="16" selection-start-line="343" selection-start-column="3" selection-end-line="343" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Pricing.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1165">
-          <caret line="1307" lean-forward="true" selection-start-line="1307" selection-end-line="1307" />
+        <state relative-caret-position="264">
+          <caret line="1121" column="26" selection-start-line="1121" selection-start-column="21" selection-end-line="1121" selection-end-column="26" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
-            <element signature="e#741#878#0" />
-            <element signature="e#3022#10006#0" />
             <element signature="e#10030#10245#0" />
             <element signature="e#10267#13146#0" />
-            <element signature="e#13174#22204#0" />
-            <element signature="e#29879#30094#0" />
-            <element signature="e#30116#30321#0" />
-            <element signature="e#30349#33849#0" />
-            <element signature="e#33873#34012#0" />
-            <element signature="e#34034#36041#0" />
-            <element signature="e#36068#36198#0" />
-            <element signature="e#36223#39109#0" />
-            <element signature="e#39131#39692#0" />
-            <element signature="e#39710#40184#0" />
-            <element signature="e#40201#40675#0" />
           </folding>
         </state>
       </provider>
