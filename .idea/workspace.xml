@@ -2,27 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d404c5b8-602b-423c-a652-facda5210eaf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LongDescriptionGenerator.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LongDescriptionGenerator2.0.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModelNumberGenerator.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pricing.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Run.py" beforeDir="false" afterPath="$PROJECT_DIR$/Run.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShortDescriptionGenerator.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShortDescriptionGenerator2.0.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spreadsheet.py" beforeDir="false" afterPath="$PROJECT_DIR$/Spreadsheet.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Weights.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hours.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/outputs/LongDescription.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/outputs/LongDescription2.0.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/outputs/ModelNumbers.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/outputs/Pricing.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/outputs/ShortDescription.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/outputs/ShortDescription2.0.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/outputs/delete.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/outputs/dictionary.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/outputs/output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SS316_DataSheets/SS316_Pricing.py" beforeDir="false" afterPath="$PROJECT_DIR$/SS316_DataSheets/SS316_Pricing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/outputs/SS316Output/Pricing.txt" beforeDir="false" afterPath="$PROJECT_DIR$/outputs/SS316Output/Pricing.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,9 +19,12 @@
     <SUITE FILE_PATH="coverage/SheetCodeGenerator$SS316_Pricing.coverage" NAME="SS316_Pricing Coverage Results" MODIFIED="1576781297283" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SS316_DataSheets" />
     <SUITE FILE_PATH="coverage/JCI$Unittests_for_test_testCode_test.coverage" NAME="Unittests for test.testCode.test Coverage Results" MODIFIED="1544025272796" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/SheetCodeGenerator$Weights.coverage" NAME="Weights Coverage Results" MODIFIED="1545062842635" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/SheetCodeGenerator$SS316_Weights__1_.coverage" NAME="SS316_Weights (1) Coverage Results" MODIFIED="1576781823123" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/SheetCodeGenerator$test.coverage" NAME="test Coverage Results" MODIFIED="1545419875110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/SheetCodeGenerator$SS316_Pricing__2_.coverage" NAME="SS316_Pricing (2) Coverage Results" MODIFIED="1576791184158" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SS316_DataSheets" />
     <SUITE FILE_PATH="coverage/SheetCodeGenerator$ShortDescriptionGenerator2_0.coverage" NAME="ShortDescriptionGenerator2.0 Coverage Results" MODIFIED="1545420172249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/SheetCodeGenerator$LongDescriptionGenerator.coverage" NAME="LongDescriptionGenerator Coverage Results" MODIFIED="1545416981800" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/SheetCodeGenerator$SS316_Weights.coverage" NAME="SS316_Weights Coverage Results" MODIFIED="1576781777007" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SS316_DataSheets" />
     <SUITE FILE_PATH="coverage/JCI$LongDescriptionGenerator.coverage" NAME="LongDescriptionGenerator Coverage Results" MODIFIED="1544205256526" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/SheetCodeGenerator$LongDescriptionGenerator2_0.coverage" NAME="LongDescriptionGenerator2.0 Coverage Results" MODIFIED="1545421436774" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/JCI$ShortDescriptionGenerator.coverage" NAME="ShortDescriptionGenerator Coverage Results" MODIFIED="1544205140406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -82,104 +67,60 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="1215" />
+          <entry key="py" value="1402" />
           <entry key="txt" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="23" />
-          <entry key="Python" value="1215" />
+          <entry key="Python" value="1402" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gitignore" value="1" />
-          <entry key="json" value="7" />
-          <entry key="py" value="16" />
-          <entry key="txt" value="37" />
+          <entry key="json" value="8" />
+          <entry key="py" value="19" />
+          <entry key="txt" value="39" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Git file" value="1" />
-          <entry key="JSON" value="7" />
-          <entry key="PLAIN_TEXT" value="37" />
-          <entry key="Python" value="16" />
+          <entry key="JSON" value="8" />
+          <entry key="PLAIN_TEXT" value="39" />
+          <entry key="Python" value="19" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Spreadsheet.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
-              <folding>
-                <element signature="e#0#14#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Run.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-364">
-              <caret line="3" selection-start-line="3" selection-end-line="8" selection-end-column="74" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/SS316_Pricing.py">
+        <entry file="file://$PROJECT_DIR$/SS316_DataSheets/SS316_Pricing.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="832" lean-forward="true" selection-start-line="832" selection-end-line="832" />
+            <state relative-caret-position="544">
+              <caret line="700" column="27" lean-forward="true" selection-start-line="700" selection-start-column="27" selection-end-line="700" selection-end-column="27" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
+                <element signature="e#911#1272#0" />
                 <element signature="e#6294#7572#0" />
-                <element signature="e#7600#13132#0" />
+                <element signature="e#7652#9244#0" />
                 <element signature="e#29881#30096#0" />
                 <element signature="e#30118#30323#0" />
-                <element signature="e#13625#17075#0" />
-                <element signature="e#17259#19283#0" />
-                <element signature="e#39133#39688#0" />
                 <element signature="e#39706#40180#0" />
-                <element signature="e#40197#40671#0" />
-                <marker date="1576781623582" expanded="true" signature="17251:17666" ph="..." />
+                <marker date="1576791127418" expanded="true" signature="17103:17518" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PlainDataSets/Pricing.py">
+        <entry file="file://$PROJECT_DIR$/outputs/SS316Output/Pricing.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="911">
-              <caret line="1316" lean-forward="true" selection-start-line="1316" selection-end-line="1316" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/outputs/SS316Output/dictionary.json">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SS316_DataSheets/SS316_ShortDescription.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2642">
-              <caret line="16" column="49" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
-              <folding>
-                <element signature="e#0#16#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="179">
+              <caret line="247" column="16" selection-start-line="247" selection-start-column="16" selection-end-line="247" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -187,17 +128,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/outputs/SS316Output/SS316_ModelNumbers.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="74" column="2" selection-start-line="74" selection-start-column="2" selection-end-line="74" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SS316_DataSheets/SS316_Weights.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="469">
-              <caret line="85" column="40" lean-forward="true" selection-start-line="85" selection-start-column="40" selection-end-line="85" selection-end-column="40" />
+            <state>
+              <caret line="57" column="1" lean-forward="true" selection-start-line="57" selection-start-column="1" selection-end-line="57" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -213,27 +145,11 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>JV 3 12 A N CV P H M N</find>
-      <find>VV 4 14 A N CV P C N H M</find>
-      <find>JV412ANCVPHMN</find>
-      <find>VV 4 12 H I FA F H M U</find>
-      <find>uvm</find>
-      <find>CONSTANT VOLUME,</find>
-      <find>14IN</find>
-      <find>08IN,</find>
-      <find>JVN10ANFAPDMU</find>
-      <find>pricecolA</find>
-      <find>ifcolcganged</find>
-      <find>VV210ANFAPHLU</find>
-      <find>ifcolh</find>
-      <find>213.</find>
-      <find>15.60</find>
       <find>10</find>
       <find>10.00</find>
       <find>116.96</find>
       <find>88.23</find>
       <find>52.26</find>
-      <find>212.</find>
       <find>VV312ANFAPHLU</find>
       <find>11.</find>
       <find>colH</find>
@@ -243,6 +159,22 @@
       <find>VENTURI VLV,6x12,FA,PC,MP</find>
       <find>VENTURI VLV,6x12,FA,PC,LP</find>
       <find>43.69</find>
+      <find>VVN12SNFAPHLU</find>
+      <find>VVN08SNFAPHLU</find>
+      <find>212.57</find>
+      <find>212.</find>
+      <find>if &quot;2&quot; in x[2]</find>
+      <find>if &quot;n</find>
+      <find>if &quot;n&quot; or</find>
+      <find>print</find>
+      <find>VV210SNFAPHLU</find>
+      <find>ganged</find>
+      <find>VV312SNFAPHLU</find>
+      <find>188</find>
+      <find>if &quot;4</find>
+      <find>250</find>
+      <find>115.</find>
+      <find>VV410SNFAPHLU</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -275,13 +207,15 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/hours.txt" />
         <option value="$PROJECT_DIR$/Pricing.py" />
-        <option value="$PROJECT_DIR$/SS316_DataSheets/SS316_Weights.py" />
         <option value="$PROJECT_DIR$/Run.py" />
         <option value="$PROJECT_DIR$/SS316_DataSheets/SS316_ModelNumber.py" />
         <option value="$PROJECT_DIR$/SS316_DataSheets/SS316_LongDescription.py" />
         <option value="$PROJECT_DIR$/SS316_DataSheets/SS316_ShortDescription.py" />
-        <option value="$PROJECT_DIR$/SS316_DataSheets/SS316_Pricing.py" />
         <option value="$PROJECT_DIR$/SS316_Pricing.py" />
+        <option value="$PROJECT_DIR$/SS316_DataSheets/SS316_Weights.py" />
+        <option value="$PROJECT_DIR$/SS316_Weights.py" />
+        <option value="$PROJECT_DIR$/outputs/SS316Output/Pricing.txt" />
+        <option value="$PROJECT_DIR$/SS316_DataSheets/SS316_Pricing.py" />
       </list>
     </option>
   </component>
@@ -292,10 +226,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1918" />
-    <option name="y" value="-11" />
-    <option name="width" value="1614" />
-    <option name="height" value="876" />
+    <option name="x" value="1885" />
+    <option name="y" value="-27" />
+    <option name="width" value="1345" />
+    <option name="height" value="649" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -314,12 +248,6 @@
               <item name="SheetCodeGenerator" type="b2602c69:ProjectViewProjectNode" />
               <item name="SheetCodeGenerator" type="462c0819:PsiDirectoryNode" />
               <item name="outputs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SheetCodeGenerator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SheetCodeGenerator" type="462c0819:PsiDirectoryNode" />
-              <item name="outputs" type="462c0819:PsiDirectoryNode" />
-              <item name="plainOutput" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SheetCodeGenerator" type="b2602c69:ProjectViewProjectNode" />
@@ -353,9 +281,12 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Dk\Workspace\Python\JCI\SheetCodeGenerator\PlainDataSets" />
+      <recent name="C:\Users\Dk\Workspace\Python\JCI\SheetCodeGenerator\SS316_DataSheets" />
       <recent name="C:\Users\Dk\Workspace\Python\JCI\SheetCodeGenerator\outputs" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Dk\Workspace\Python\JCI\SheetCodeGenerator\SS316_DataSheets" />
       <recent name="C:\Users\Dk\Workspace\Python\JCI\SheetCodeGenerator" />
       <recent name="C:\Workspace\Python\JCI" />
       <recent name="C:\Users\Dk\Workspace\Python\JCI\SheetCodeGenerator\outputs" />
@@ -374,73 +305,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.SS316_Pricing (1)">
-    <configuration name="LongDescriptionGenerator2.0" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="JCI" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LongDescriptionGenerator2.0.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Pricing" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="JCI" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pricing.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Run" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="JCI" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Run.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.SS316_Pricing (2)">
     <configuration name="SS316_Pricing (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="JCI" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -455,6 +320,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="C:\Users\Dk\Workspace\Python\JCI\SheetCodeGenerator\SS316_DataSheets\SS316_Pricing.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="SS316_Pricing (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="JCI" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SS316_DataSheets" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SS316_DataSheets/SS316_Pricing.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -485,20 +372,64 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="SS316_Weights (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="JCI" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Dk\Workspace\Python\JCI\SheetCodeGenerator\SS316_DataSheets\SS316_Weights.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="SS316_Weights" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="JCI" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SS316_DataSheets" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Dk\Workspace\Python\JCI\SheetCodeGenerator\SS316_DataSheets\SS316_Weights.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python.LongDescriptionGenerator2.0" />
-      <item itemvalue="Python.Pricing" />
-      <item itemvalue="Python.Run" />
       <item itemvalue="Python.SS316_Pricing" />
       <item itemvalue="Python.SS316_Pricing (1)" />
+      <item itemvalue="Python.SS316_Weights" />
+      <item itemvalue="Python.SS316_Weights (1)" />
+      <item itemvalue="Python.SS316_Pricing (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.SS316_Pricing (2)" />
+        <item itemvalue="Python.SS316_Weights (1)" />
+        <item itemvalue="Python.SS316_Weights" />
         <item itemvalue="Python.SS316_Pricing (1)" />
         <item itemvalue="Python.SS316_Pricing" />
-        <item itemvalue="Python.Run" />
-        <item itemvalue="Python.Pricing" />
-        <item itemvalue="Python.LongDescriptionGenerator2.0" />
       </list>
     </recent_temporary>
   </component>
@@ -562,12 +493,12 @@
     <frame x="1592" y="-8" width="1936" height="1176" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3065032" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12100213" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32884097" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.27543187" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2447217" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39892185" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -576,7 +507,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32884097" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.17250673" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -766,13 +697,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SS316_DataSheets/SS316_Weights.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="85" column="40" lean-forward="true" selection-start-line="85" selection-start-column="40" selection-end-line="85" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SS316_DataSheets/SS316_ModelNumber.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="558">
@@ -807,27 +731,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/outputs/SS316Output/SS316_ModelNumbers.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="74" column="2" selection-start-line="74" selection-start-column="2" selection-end-line="74" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Run.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-364">
           <caret line="3" selection-start-line="3" selection-end-line="8" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SS316_DataSheets/SS316_ShortDescription.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2642">
-          <caret line="16" column="49" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
-          <folding>
-            <element signature="e#0#16#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -844,16 +751,6 @@
     <entry file="file://$PROJECT_DIR$/client_secret.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Spreadsheet.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/outputs/plainOutput/dictionary.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -864,15 +761,38 @@
     <entry file="file://$PROJECT_DIR$/outputs/plainOutput/Pricing.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/outputs/SS316Output/dictionary.json">
+    <entry file="file://$PROJECT_DIR$/PlainDataSets/client_secret.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/outputs/SS316Output/Pricing.txt">
+    <entry file="file://$PROJECT_DIR$/PlainDataSets/Spreadsheet.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="25" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="25" />
+        <state relative-caret-position="255">
+          <caret line="16" column="67" selection-start-line="16" selection-start-column="67" selection-end-line="16" selection-end-column="67" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SS316_DataSheets/Spreadsheet.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SS316_DataSheets/SS316_Weights.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1411">
+          <caret line="83" column="19" lean-forward="true" selection-start-line="83" selection-start-column="19" selection-end-line="83" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SS316_DataSheets/SS316_ShortDescription.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2642">
+          <caret line="16" column="49" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/outputs/SS316Output/dictionary.json">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/PlainDataSets/Pricing.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -884,22 +804,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SS316_Pricing.py">
+    <entry file="file://$PROJECT_DIR$/PlainDataSets/Weights.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spreadsheet.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="832" lean-forward="true" selection-start-line="832" selection-end-line="832" />
+        <state relative-caret-position="272">
+          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/outputs/SS316Output/SS316_ModelNumbers.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="57" column="1" lean-forward="true" selection-start-line="57" selection-start-column="1" selection-end-line="57" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/outputs/SS316Output/Pricing.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="247" column="16" selection-start-line="247" selection-start-column="16" selection-end-line="247" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SS316_DataSheets/SS316_Pricing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="700" column="27" lean-forward="true" selection-start-line="700" selection-start-column="27" selection-end-line="700" selection-end-column="27" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
+            <element signature="e#911#1272#0" />
             <element signature="e#6294#7572#0" />
-            <element signature="e#7600#13132#0" />
+            <element signature="e#7652#9244#0" />
             <element signature="e#29881#30096#0" />
             <element signature="e#30118#30323#0" />
-            <element signature="e#13625#17075#0" />
-            <element signature="e#17259#19283#0" />
-            <element signature="e#39133#39688#0" />
             <element signature="e#39706#40180#0" />
-            <element signature="e#40197#40671#0" />
-            <marker date="1576781623582" expanded="true" signature="17251:17666" ph="..." />
+            <marker date="1576791127418" expanded="true" signature="17103:17518" ph="..." />
           </folding>
         </state>
       </provider>

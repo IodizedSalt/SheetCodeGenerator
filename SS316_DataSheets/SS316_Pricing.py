@@ -34,7 +34,7 @@ def tempLoopList():
 
 def priceColA():
     for x in modelNum:
-        if "N" or "F" in x[2]:
+        if "N" in x[2] or "F" in x[2]:
             ifColA(x)
         else:
             ifColAGanged(x)
@@ -57,62 +57,61 @@ def ifColA(x):
             modelNum.update({x: a})
 
 def ifColAGanged(x):
-    if "P" in x[9]:
-        if "08" in x[3:5]:
-            if "2" in x[2]:
-                a = modelNum[x]
-                a += (200.74 * 2)
-                modelNum.update({x: a})
-            if "3" in x[2]:
-                a = modelNum[x]
-                a += (200.74 * 3)
-                modelNum.update({x: a})
-            if "4" in x[2]:
-                a = modelNum[x]
-                a += (200.74 * 4)
-                modelNum.update({x: a})
-            if "6" in x[2]:
-                a = modelNum[x]
-                a += (200.74 * 6)
-                modelNum.update({x: a})
-        elif "10" in x[3:5]:
-            if "2" in x[2]:
-                a = modelNum[x]
-                a += (250.40 * 2)
-                modelNum.update({x: a})
-            if "3" in x[2]:
-                a = modelNum[x]
-                a += (250.40 * 3)
-                modelNum.update({x: a})
-            if "4" in x[2]:
-                a = modelNum[x]
-                a += (250.40 * 4)
-                modelNum.update({x: a})
-            if "6" in x[2]:
-                a = modelNum[x]
-                a += (250.40 * 6)
-                modelNum.update({x: a})
-        elif "12" in x[3:5]:
-            if "2" in x[2]:
-                a = modelNum[x]
-                a += (252.74* 2)
-                modelNum.update({x: a})
-            if "3" in x[2]:
-                a = modelNum[x]
-                a += (252.74 * 3)
-                modelNum.update({x: a})
-            if "4" in x[2]:
-                a = modelNum[x]
-                a += (252.74 * 4)
-                modelNum.update({x: a})
-            if "6" in x[2]:
-                a = modelNum[x]
-                a += (252.74 * 6)
-                modelNum.update({x: a})
+    if "08" in x[3:5]:
+        if "2" in x[2]:
+            a = modelNum[x]
+            a += (200.74 * 2)
+            modelNum.update({x: a})
+        if "3" in x[2]:
+            a = modelNum[x]
+            a += (200.74 * 3)
+            modelNum.update({x: a})
+        if "4" in x[2]:
+            a = modelNum[x]
+            a += (200.74 * 4)
+            modelNum.update({x: a})
+        if "6" in x[2]:
+            a = modelNum[x]
+            a += (200.74 * 6)
+            modelNum.update({x: a})
+    elif "10" in x[3:5]:
+        if "2" in x[2]:
+            a = modelNum[x]
+            a += (250.40 * 2)
+            modelNum.update({x: a})
+        if "3" in x[2]:
+            a = modelNum[x]
+            a += (250.40 * 3)
+            modelNum.update({x: a})
+        if "4" in x[2]:
+            a = modelNum[x]
+            a += (250.40 * 4)
+            modelNum.update({x: a})
+        if "6" in x[2]:
+            a = modelNum[x]
+            a += (250.40 * 6)
+            modelNum.update({x: a})
+    elif "12" in x[3:5]:
+        if "2" in x[2]:
+            a = modelNum[x]
+            a += (252.74* 2)
+            modelNum.update({x: a})
+        if "3" in x[2]:
+            a = modelNum[x]
+            a += (252.74 * 3)
+            modelNum.update({x: a})
+        if "4" in x[2]:
+            a = modelNum[x]
+            a += (252.74 * 4)
+            modelNum.update({x: a})
+        if "6" in x[2]:
+            a = modelNum[x]
+            a += (252.74 * 6)
+            modelNum.update({x: a})
 
 def priceColB():
     for x in modelNum:
-        if "N" or "F" in x[2]:
+        if "N" in x[2] or "F" in x[2]:
             ifColB(x)
             # pass #x1 for all values
         else:
@@ -150,7 +149,7 @@ def ifColBGanged(x):
                 modelNum.update({x: a})
             if "3" in x[2]:
                 a = modelNum[x]
-                a += (102.46* 3)
+                a += (102.46 * 3)
                 modelNum.update({x: a})
             if "4" in x[2]:
                 a = modelNum[x]
@@ -171,7 +170,8 @@ def ifColBGanged(x):
                 modelNum.update({x: a})
             if "4" in x[2]:
                 a = modelNum[x]
-                a += (107.21* 4)
+                a += (107.21 * 4)
+                modelNum.update({x: a})
             if "6" in x[2]:
                 a = modelNum[x]
                 a += (107.21 * 6)
@@ -183,7 +183,7 @@ def ifColBGanged(x):
                 modelNum.update({x: a})
             if "3" in x[2]:
                 a = modelNum[x]
-                a += (116.05* 3)
+                a += (116.05 * 3)
                 modelNum.update({x: a})
             if "4" in x[2]:
                 a = modelNum[x]
@@ -213,7 +213,7 @@ def ifColBGanged(x):
 
 def priceColC():
     for x in modelNum:
-        if "N" or "F" in x[2]:
+        if "N" in x[2] or "F" in x[2]:
             ifColC(x)
             # pass #x1 for all values
         else:
@@ -353,6 +353,7 @@ def ifColCGanged(x):
                     a = modelNum[x]
                     a += (212.57 * 4)
                     modelNum.update({x: a})
+
                 if "6" in x[2]:
                     a = modelNum[x]
                     a += (212.57 * 6)
@@ -430,7 +431,7 @@ def ifColCGanged(x):
 
 def priceColD():
     for x in modelNum:
-        if "N" or "F" in x[2]:
+        if "N" in x[2] or "F" in x[2]:
             ifColD(x)
             # pass #x1 for all values
         else:
@@ -587,7 +588,7 @@ def priceColG():
 
 
 def ifColG(x):
-    if "N" or "F" in x[2]:
+    if "N" in x[2] or "F" in x[2]:
         if "08" in x[3:5]:
             a = modelNum[x]
             a += (16.87)
@@ -660,7 +661,7 @@ def ifColG(x):
 
 def priceColHorI():
     for x in modelNum:
-        if "N" or "F" in x[2]:
+        if "N" in x[2] or "F" in x[2]:
             pass
         else:
             ifColHorI(x)
@@ -700,6 +701,7 @@ def ifColHorI(x):
             a = modelNum[x]
             a += 241.19
             modelNum.update({x: a})
+
         elif "12" in x[3:5]:
             a = modelNum[x]
             a += 304.62
@@ -719,22 +721,14 @@ def ifColHorI(x):
 def uvmCost():
     for x in modelNum:
         if "U" in x[12]:
-            if "2" in x[2]:
-                a = modelNum[x]
-                a += (116.96)
-                modelNum.update({x: a})
-            elif "3" in x[2]:
-                a = modelNum[x]
-                a += (116.96)
-                modelNum.update({x: a})
-            elif "4" in x[2]:
-                a = modelNum[x]
-                a += (116.96)
-                modelNum.update({x: a})
-            elif "6" in x[2]:
-                a = modelNum[x]
-                a += (116.96)
-                modelNum.update({x: a})
+            a = modelNum[x]
+            a += 116.96
+            modelNum.update({x: a})
+            if (x == "VV412SNFAPHLU"):
+                print(modelNum[x])
+
+    return "\n".join(modelNum)
+
 
 def colK():
     for x in modelNum:
@@ -791,7 +785,7 @@ def writeModelNumbersToFile(newFileData):
 def writeCostDictionaryToFile(newFileData):
     # with open('outputs/dictionary.txt', 'w') as f:
     #     print(newFileData, file=f)
-    with open("./outputs/SS316Output/Pricing.txt", "w") as file:
+    with open("../outputs/SS316Output/Pricing.txt", "w") as file:
         json.dump(newFileData, file, indent=2)
 
 
